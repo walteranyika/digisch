@@ -1,0 +1,7 @@
+SELECT students.class as classy, (SUM(exams.score)/COUNT(names)) as total FROM exams JOIN students ON exams.std_regno=students.stdreg_no WHERE students.school_id='abc126' GROUP BY students.class
+SELECT students.class as classy, (SUM(exams.score)/COUNT(names)) as total FROM exams JOIN students ON exams.std_regno=students.stdreg_no WHERE students.school_id='abc126' GROUP BY students.class
+SELECT students.class as classy, (SUM(exams.score)/COUNT(names)) as total FROM exams JOIN students ON exams.std_regno=students.stdreg_no WHERE students.school_id='abc126' GROUP BY students.class
+SELECT students.class as classy, (SUM(exams.score)/COUNT(names)) as total FROM exams JOIN students ON exams.std_regno=students.stdreg_no WHERE students.school_id='abc126' GROUP BY students.class
+SELECT students.class as classy, (SUM(exams.score)/COUNT(names)) as total FROM exams JOIN students ON exams.std_regno=students.stdreg_no WHERE students.school_id='abc126' GROUP BY students.class
+SELECT students.class as classy, (SUM(exams.score)/COUNT(names)) as total FROM exams JOIN students ON exams.std_regno=students.stdreg_no WHERE students.school_id='abc126' GROUP BY students.class
+SELECT students.class as classy, (SUM(exams.score)/COUNT(names)) as total FROM exams JOIN students ON exams.std_regno=students.stdreg_no WHERE students.school_id='abc126' GROUP BY students.class
